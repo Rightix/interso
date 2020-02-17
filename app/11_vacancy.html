@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- include "html/_head.html" -->
+
+</head>
+<body>
+<div class="wrapper">
+    <!-- include "html/_header-menu.html" -->
+    <header class="">
+        <div class="breadcrumbs">
+            <a href="" class="breadcrumbs__item">Главная</a>
+            <a href="" class="breadcrumbs__item">О компании</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 vacancy-preview">
+                    <h1 class="preview-title vacancy-preview__title">
+                        Вакансии
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="vacancy-list">
+                    <div class="vacancy-item">
+                        <div class="vacancy-item__left">
+                            <div class="vacancy-item__image">
+                                <img src="img/vacancy_1.png" alt="">
+                            </div>
+                            <a href="" class="vacancy-item__link">Подробнее</a>
+                        </div>
+                        <div class="vacancy-item-text">
+                            <div class="vacancy-item-text__title">Программист</div>
+                            <div class="vacancy-item-text__desc">Мы растем и развиваемся. В свою команду мы ищем
+                                человека, умеющего программировать на PHP.
+                                Нам важно, чтобы этот человек любил создавать сайты и имел практический опыт.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vacancy-item">
+                        <div class="vacancy-item__left">
+                            <div class="vacancy-item__image">
+                                <img src="img/vacancy_2.png" alt="">
+                            </div>
+                            <a href="" class="vacancy-item__link">Подробнее</a>
+                        </div>
+                        <div class="vacancy-item-text">
+                            <div class="vacancy-item-text__title">Дизайнер</div>
+                            <div class="vacancy-item-text__desc">Нам нужен человек, который умеет создавать качественную
+                                графику, радующую глаз, создающую правильное настроение. Ищем человека, который умеет
+                                как воплощать свои фантазии, так и реализовывать идеи клиентов и работать на общую
+                                задачу.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vacancy-item">
+                        <div class="vacancy-item__left">
+                            <div class="vacancy-item__image">
+                                <img src="img/vacancy_3.png" alt="">
+                            </div>
+                            <a href="" class="vacancy-item__link">Подробнее</a>
+                        </div>
+                        <div class="vacancy-item-text">
+                            <div class="vacancy-item-text__title">Менеджер</div>
+                            <div class="vacancy-item-text__desc">В связи с расширением деятельности ищем менеджера по
+                                обслуживанию корпоративных клиентов.
+                                Гарантируем сотрудникам соблюдение трудового законодательства при официальном
+                                трудоустройстве.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order-form-wrapper support-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 order-form">
+                    <div class="order-form__title">Отправить резюме</div>
+                    <div class="order-form__desc">
+                        Собеседование состоится после рассмотрения резюме
+                    </div>
+                    <form class="form" action="">
+                        <div class="form-row">
+                            <div class="form__caption">Вакансия</div>
+                            <div class="form__area">
+                                <input type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-row resume-row">
+                            <div class="form__caption">Резюме</div>
+                            <div class="form__area">
+                                <div class="form__area-resume">
+                                    <a href="">Скачать</a> и заполнить бланк резюме.
+                                </div>
+                                <label class="form__file" for="file__input">
+                                    <div class="attach__file">
+                                        <svg class="form-icon__file">
+                                            <use xlink:href="plain/svg/sprite.svg#file"></use>
+                                        </svg>
+                                        прикрепите файл
+                                    </div>
+                                    <input type="text" class="form__file-name" disabled="">
+                                    <input data-validation="required extension" data-validation-allowing="txt" id="file__input" type="file" name="file">
+                                    <div data-ripple-color="#ffffff" class="form-button material-ripple">Обзор</div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row checkbox-row">
+                            <div class="form__caption">
+                                Место работы
+                            </div>
+                            <div class="form__area checkboxes">
+                                <div class="form__area-select">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox-custom"></span>
+                                        <span class="label">Петрозаводск</span>
+                                    </label>
+                                </div>
+                                <div class="form__area-select">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox-custom"></span>
+                                        <span class="label">Архангельск</span>
+                                    </label>
+                                </div>
+                                <div class="form__area-select">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <span class="checkbox-custom"></span>
+                                        <span class="label">удаленное</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form__caption">Представьтесь, пожалуйста</div>
+                            <div class="form__area">
+                                <input type="text" placeholder="Имя">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form__caption">Адрес эл. почты</div>
+                            <div class="form__area">
+                                <input name="phone" class="order-form" type="text" placeholder="Телефон">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form__caption">Телефон</div>
+                            <div class="form__area">
+                                <input class="order-form" type="text" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form__caption">Комментарий</div>
+                            <div class="form__area">
+                                <textarea name="" id="" cols="30" rows="6"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form__caption"></div>
+                            <div class="form__area form__area--submit">
+                                <button type="submit" class="blue-button ">
+                                    Отправить
+                                </button>
+                                <div class="order-form__submit">
+                                    Нажимая на кнопку «Отправить заявку», вы соглашаетесь на обработку персональных
+                                    данных в соответствии с
+                                    <a href="">политикой конфиденциальности</a>.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- include "html/_footer.html" -->
+</div>
+
+</body>
+</html>
